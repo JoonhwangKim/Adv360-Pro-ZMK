@@ -2,13 +2,13 @@ macro_ko: macro_ko{
 compatible = "zmk,behavior-macro";
 label = "macro_ko";
 #binding-cells = <0>;
-bindings = <&kt LSHFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>, <&kp F1>, <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>;
+bindings = <&kt LSHFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>, <&kp NUMBER_8>, <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>;
 };
 macro_en: macro_en{
 compatible = "zmk,behavior-macro";
 label = "macro_en";
 #binding-cells = <0>;
-bindings = <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>, <&kp F2>, <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>;
+bindings = <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>, <&kp NUMBER_9>, <&kt LSHIFT>, <&kt LCTRL>, <&kt LCMD>, <&kt LALT>;
 };
 macro_brackets: macro_brackets{
 compatible = "zmk,behavior-macro";
