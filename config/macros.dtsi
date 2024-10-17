@@ -1,3 +1,9 @@
+macro_aero: macro_aero{
+compatible = "zmk,behavior-macro";
+label = "macro_aero";
+#binding-cells = <0>;
+bindings = <&kp LSHIFT>, <&kp LALT>;
+};
 macro_ko: macro_ko{
 compatible = "zmk,behavior-macro";
 label = "macro_ko";
